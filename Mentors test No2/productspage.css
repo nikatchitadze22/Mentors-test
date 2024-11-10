@@ -1,0 +1,35 @@
+body,
+header,
+footer {
+  font-family: Arial, sans-serif;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #0044cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003399;
+}
+
+nav{
+  background-color: #003399;
+}
+
+nav a {
+  background-color: #003399;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}

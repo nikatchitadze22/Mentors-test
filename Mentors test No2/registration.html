@@ -1,0 +1,41 @@
+<!--  Registration Page
+Registration form with fields for Name, Email, 
+Password, Confirm Password, etc.
+Validate inputs to ensure all fields are filled and passwords match.
+On successful registration, store user information in localStorage 
+or cookies for later reference.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="registration.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Register</h1>
+      <nav>
+        <a href="productspage.html">Products</a>
+        <a href="reviewspage.html">Reviews</a>
+        <a href="registration.html">Register</a>
+        <a href="loginpage.html">Login</a>
+        <a href="adminpanel.html">Admin Panel</a>
+    </nav>
+    </header>
+    <main>
+      <form id="registrationForm">
+        <label>Name: <input type="text" id="name" required /></label>
+        <label>Email: <input type="email" id="email" required /></label>
+        <label>Password: <input type="password" id="password" required /></label>
+        <label>Confirm Password: <input type="password" id="confirmPassword" required /></label>
+        <button type="submit">Register</button>
+      </form>
+    </main>
+    <footer>
+      <p>Contact us at contact@bank.com</p>
+    </footer>
+    <script src="registration.js"></script>
+  </body>
+</html>

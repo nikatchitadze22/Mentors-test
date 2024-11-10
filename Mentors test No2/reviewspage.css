@@ -1,0 +1,15 @@
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+nav{
+    background-color: #003399;
+}
+
+nav a {
+    background-color: #003399;
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+}

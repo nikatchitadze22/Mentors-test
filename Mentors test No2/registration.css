@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  label {
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+  
+  nav{
+    background-color: #003399;
+}
+
+nav a {
+    background-color: #003399;
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+}

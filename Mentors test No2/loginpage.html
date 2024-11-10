@@ -1,0 +1,38 @@
+<!-- Login Page
+Login form with fields for Email and Password.
+Validate credentials against stored registration details in localStorage or cookies.
+On successful login, redirect the user to the Home Page or Admin Panel (if they have admin access).
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="loginpage.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Login</h1>
+      <nav>
+        <a href="productspage.html">Products</a>
+        <a href="reviewspage.html">Reviews</a>
+        <a href="registration.html">Register</a>
+        <a href="loginpage.html">Login</a>
+        <a href="adminpanel.html">Admin Panel</a>
+    </nav>
+    </header>
+    <main>
+      <form id="loginForm">
+        <label>Email: <input type="email" id="email" required /></label>
+        <label>Password: <input type="password" id="password" required /></label>
+        <button type="submit">Login</button>
+      </form>
+    </main>
+    <footer>
+      <p>Contact us at contact@bank.com</p>
+    </footer>
+    <script src="loginpage.js"></script>
+  </body>
+</html>

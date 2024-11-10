@@ -1,0 +1,61 @@
+<!-- Admin Panel
+Access Restriction: This page should only be accessible if a user is logged in as an admin. Implement this check using localStorage or a similar solution.
+Currency Exchange Section: Use a select dropdown to let the admin choose currency types (e.g., USD to EUR).
+Integrate a currency exchange API to fetch and display real-time exchange rates.
+Example: Display the rate for the selected currency pair (e.g., 1 USD = X EUR).
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="adminpanel.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Panel</h1>
+    <nav>
+        <a href="productspage.html">Products</a>
+        <a href="reviewspage.html">Reviews</a>
+        <a href="registration.html">Register</a>
+        <a href="loginpage.html">Login</a>
+        <a href="adminpanel.html">Admin Panel</a>
+    </nav>
+  </header>
+  <main>
+    <section id="user-management">
+      <h2>User Management</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="userTable">
+        </tbody>
+      </table>
+    </section>
+
+    <section id="currency-exchange">
+      <h2>Currency Exchange</h2>
+      <label for="currency">Select currency pair:</label>
+      <select id="currency">
+        <option value="USD_EUR">USD to EUR</option>
+        <option value="USD_GBP">USD to GBP</option>
+        <option value="USD_JPY">USD to JPY</option>
+      </select>
+      <p id="exchange-rate">Exchange Rate: -</p>
+    </section>
+  </main>
+  <footer>
+    <p>Contact us at contact@bank.com</p>
+  </footer>
+  <script src="adminpanel.js"></script>
+</body>
+</html>
